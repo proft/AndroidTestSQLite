@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="proft.me.testsqlite.app.MainActivity" >
+
+    <item android:id="@+id/menu_create"
+        android:title="@string/menu_create"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_delete"
+        android:title="@string/menu_delete"
+        android:orderInCategory="3"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always" />
+
+</menu>
